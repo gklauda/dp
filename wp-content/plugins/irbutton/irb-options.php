@@ -3,7 +3,6 @@
 if ( isset($_POST['Submit']) ) {
    update_option('irb_buttonText',$_POST['irb_buttonText']);
    update_option('irb_disclaimer',$_POST['irb_disclaimer']);
-   update_option('irb_category',$_POST['irb_category']);
 }
 
 // Get the values from the database and store them in the variables
